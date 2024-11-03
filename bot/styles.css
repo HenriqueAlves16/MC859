@@ -1,0 +1,78 @@
+/* Basic reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+/* Highlighting controled squares */
+.square.highlight-attack {
+    background-color: rgb(255, 45, 45) !important; /* Cor verde para casas atacadas */
+}
+
+/* Board styling */
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 75px);
+    grid-template-rows: repeat(8, 75px);
+    gap: 1px;
+    border: 1px solid #000;
+}
+
+.square {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.square.white {
+    background-color: #eee;
+}
+
+.square.black {
+    background-color: #4e4e4e;
+}
+
+.square img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.square.highlight-move {
+    background-color: rgb(139, 181, 255);
+}
+
+.square.highlight-capture {
+    background-color: rgb(255, 43, 43);
+}
+
+.square.highlight-special-move {
+    background-color: rgb(202, 43, 255);
+}
+
+.evaluation {
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI';
+    font-size: 30px;
+    font-weight: 600;
+    margin-inline-start: 30px;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+#undo-button {
+    min-width: 100px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+}

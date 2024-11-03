@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "outDir": "./js/dist",  // Compilar para o diretório dist
+      "rootDir": "./js",      // Pasta raiz dos arquivos TS
+      "target": "es6",
+      "module": "es6",
+      "strict": true,
+      "esModuleInterop": true
+    }
+}
+  
