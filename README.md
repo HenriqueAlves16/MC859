@@ -19,6 +19,9 @@ Para executar este projeto localmente, siga os passos abaixo:
 4. Abra o Visual Studio Code (VSCode) e ative a extensão Live Server. Clique em Go Live no canto inferior direito do VSCode para iniciar um servidor local e visualizar a interface gráfica no navegador.
 
 # Estrutura do projeto
+## Análise de dados
+Todos os scripts e funções desenvolvidas para a população do banco de dados e posteriores análises estão no diretório data_analysis.
+
 ## Interface Gráfica
 * **index.html:** Arquivo HTML principal que estrutura a interface do jogo. Ele define o layout básico da página e incorpora os scripts e folhas de estilo.
 
@@ -26,7 +29,7 @@ Para executar este projeto localmente, siga os passos abaixo:
 
 * **UI.ts:** Script TypeScript que controla a interface do usuário. Ele gerencia a atualização visual do tabuleiro, incluindo a movimentação de peças e outros elementos de interação com o usuário.
 
-# Lógica do Jogo
+## Lógica do Jogo
 **Board.ts:** Este arquivo contém a lógica central do jogo de xadrez, incluindo as regras do tabuleiro, validação de movimentos e controle de estado do jogo. É o núcleo onde a maioria das operações relacionadas ao tabuleiro e ao fluxo do jogo são executadas.
 
 ## Lógica das Peças
