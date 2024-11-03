@@ -3,6 +3,7 @@ Este projeto foi desenvolvido pelo aluno Henrique Alves de Fernando na disciplin
 
 # Autor
 Henrique Alves de Fernando
+
 RA: 236538
 
 # Instruções para Execução Local
@@ -20,9 +21,12 @@ Para executar este projeto localmente, siga os passos abaixo:
 # Estrutura do projeto
 ## Interface Gráfica
 * **index.html:** Arquivo HTML principal que estrutura a interface do jogo. Ele define o layout básico da página e incorpora os scripts e folhas de estilo.
-**styles.css:** Arquivo de estilos responsável pela aparência do jogo, incluindo o layout do tabuleiro, as peças e outros elementos visuais.
-**UI.ts:** Script TypeScript que controla a interface do usuário. Ele gerencia a atualização visual do tabuleiro, incluindo a movimentação de peças e outros elementos de interação com o usuário.
-Lógica do Jogo
+
+* **styles.css:** Arquivo de estilos responsável pela aparência do jogo, incluindo o layout do tabuleiro, as peças e outros elementos visuais.
+
+* **UI.ts:** Script TypeScript que controla a interface do usuário. Ele gerencia a atualização visual do tabuleiro, incluindo a movimentação de peças e outros elementos de interação com o usuário.
+
+# Lógica do Jogo
 **Board.ts:** Este arquivo contém a lógica central do jogo de xadrez, incluindo as regras do tabuleiro, validação de movimentos e controle de estado do jogo. É o núcleo onde a maioria das operações relacionadas ao tabuleiro e ao fluxo do jogo são executadas.
 
 ## Lógica das Peças
